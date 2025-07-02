@@ -1,4 +1,30 @@
 /* You can add global styles to this file, and also import other style files */
-
+body{
+    margin: 0px;
+}
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.fredericka-the-great-regular {
+  font-family: "Fredericka the Great", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.parisienne-regular {
+  font-family: "Parisienne", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+h2{
+    text-align: center;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    background-color: aliceblue;
+    border-radius: 20px;
+    padding: 0.3vw;
+}
+img{
+    max-width: 4vw;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    object-fit:cover;
+}
